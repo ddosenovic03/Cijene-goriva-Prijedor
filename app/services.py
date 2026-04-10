@@ -18,9 +18,9 @@ def calculate_fuel_statistics(stations: list[dict]) -> dict:
                     }
                 )
 
-        print(f"\nDEBUG - {fuel_name}")
-        for offer in offers:
-            print(offer)
+        # print(f"\nDEBUG - {fuel_name}")
+        # for offer in offers:
+        #     print(offer)
 
         if not offers:
             continue

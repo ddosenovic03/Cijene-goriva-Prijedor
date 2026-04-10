@@ -22,9 +22,9 @@ def main() -> None:
         html = fetch_html()
         stations = parse_stations(html)
 
-        print("\nDEBUG - PARSIRANE STANICE")
-        for station in stations:
-            print(station)
+        # print("\nDEBUG - PARSIRANE STANICE")
+        # for station in stations:
+        #     print(station)
 
         if not stations:
             print("Nema pronađenih pumpi za Prijedor.")
